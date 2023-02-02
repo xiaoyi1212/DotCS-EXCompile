@@ -1,0 +1,10 @@
+include "system";
+include "vm";
+
+value a:"a" = 3.0;
+value b:"Bool" = (3.0==a);
+
+if((true&b)) exe.system.printf(out:"???");
+
+
+
